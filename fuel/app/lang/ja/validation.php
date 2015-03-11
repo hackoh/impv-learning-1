@@ -1,0 +1,23 @@
+<?php 
+return array(
+	'required'      => ':label は必須項目です。',
+	'min_length'    => ':label は :param:1文字以上で入力してください。',
+	'max_length'    => ':label は :param:1文字以内で入力してください。',
+	'exact_length'  => ':label は :param:1文字で入力してください。',
+	'match_value'   => ':label は :param:1 と一致している必要があります。',
+	'match_pattern' => ':label はパターン :param:1 と一致している必要があります。',
+	'match_field'   => ':label は :param:1 と一致している必要があります。',
+	'valid_email'   => ':label は不正なフォーマットです。',
+	'valid_emails'  => ':label は不正なメールアドレスが含まれています。',
+	'valid_url'     => ':label は不正なURLです。',
+	'valid_ip'      => ':label は不正なIPアドレスです。',
+	'numeric_min'   => ':label は :param:1以上の数字で入力してください。',
+	'numeric_max'   => ':label は :param:1以内の数字で入力してください。',
+	'valid_string'  => ':label は :rule(:param:1)ルールで入力する必要があります。',
+	'required_with' => ':label は :param:1つ以上選択する必要があります。',
+	'katakana'      => ':labelは全角カタカナで入力し下さい。',
+	'hiragana'      => ':labelは全角ひらがなで入力し下さい。',
+	'valid_date'    => ':labelには正しい日付を入力して下さい。',
+	'numeric'    => ':labelには半角数字を入力して下さい。',
+	'diamond_exists' => 'ご指定のダイヤモンドは存在しません',
+);
